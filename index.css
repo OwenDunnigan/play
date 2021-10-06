@@ -1,0 +1,196 @@
+p {
+	color: #D00000;
+	font-size: x-large;
+}
+
+
+
+.title {
+position: sticky;
+font-size: 288px;
+top: -3vh;
+z-index: 1;
+margin-top: 14vh;
+color: #14342B;
+}
+
+.color {
+	background: linear-gradient(170deg, rgba(122,147,70,1) 45%, rgba(255,255,255,0) 99%);
+    width: 100vw;
+    height: 190vh;
+    position: absolute;
+    top: 20vh;
+	z-index: 0;
+}
+
+.color2{
+background: radial-gradient(circle, rgba(90,102,114,1) 50%, rgba(255,255,255,0) 100%);
+height: 4420px;
+	position: absolute;
+	z-index:-1;
+	width: 100%;
+	
+}
+
+.color3{
+	background-color: #563635;
+	z-index:-1;
+	position: absolute;
+	height: 263vh;
+	width: 100vw;
+	z-index: -2;
+	margin-top: -20vh;
+}
+
+.color4 {
+	color, background-color: #D00000
+}
+
+.color5 {
+	
+}
+
+body {
+	margin: 0px;
+	width: 100vw !important;
+	overflow-x: hidden;
+}
+
+#jules {
+	width: 33vw;
+	position: sticky;
+	bottom: 0px;
+}
+
+#bandaid {
+	width :33vw;
+	position: sticky; 
+	bottom: 0px;
+	left: 100%;
+}
+
+#play {
+	position: sticky;
+	bottom: 0px;
+	left: 100%;
+}
+
+#wirefm {
+	position: sticky;
+	top: 0px;
+	width: 80vw;
+	z-index: -1;
+}
+
+#buble {
+	margin-left:60vw;
+	position: static;
+	z-index: 2;
+	width: 44%;
+	margin-top: 25vh;
+}
+
+#guitar {
+	    width: -webkit-fill-available;
+	margin-top: -20%;
+}
+
+#jump {
+	right: 0px;
+	position: absolute;
+	margin-top: -37vh;
+}
+
+#spacing-1 {
+	height: 40vh;
+}
+#spacing-2 {
+	height: 37vh;
+}
+
+#spacing-3 {
+	height: 30vh;
+}
+
+.progress {
+	position: absolute;
+	left : -500px;
+	animation: progress 20s infinite;
+	width: max-content;
+	animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+	animation-timing-function: cubic-bezier(1, -1.36, 0.38, 1.82);
+	top: 5.5vh;
+	transform: scale(2.25,13.5);
+	color: #5A6672;
+}
+
+.text1 {
+	    margin-left: 40vw;
+    top: -35vh;
+    position: relative;
+	font-family: 'Space Mono', monospace;
+	width: 21em;
+}
+
+.text2 {
+	position: relative;
+    margin-left: 40vw;
+    top: -30em;
+	font-family: 'Space Mono', monospace;
+	width: 20em;
+}
+
+.text3 {
+    margin-left: 55%;
+    margin-top: -350vh;
+	font-family: 'Space Mono', monospace;
+	width: 19em;
+	top: -25em;
+	position: relative;
+}
+
+.text4 {
+	left: 78vw;
+    position: relative;
+    top: -5em;
+    width: 14em;
+	font-family: 'Space Mono', monospace;
+}
+
+
+
+.the_fold {
+	position: relative;
+    margin-top: 50%;
+    font-size: 120vh;
+    width: max-content;
+    animation: thefold 10s infinite;
+	z-index: -2;
+	animation-direction: alternate-reverse;
+	animation-timing-function: cubic-bezier(0.51, -0.44, 0.47, 3.96);
+}
+
+
+@keyframes progress { 
+	from {
+		left : -500px;
+	}
+	
+	to {
+		left : -50px;
+	}
+}
+
+@keyframes thefold {
+	from {
+		right: -50%;
+		color: black;
+	}
+	
+	to {
+		right: 75%;
+		color: #D00000;
+	}
+}
+	
